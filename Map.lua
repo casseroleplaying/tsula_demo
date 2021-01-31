@@ -23,7 +23,7 @@ function Map:init()
     self.mapWPx = self.mapW * self.tileW    -- map w and h in px
     self.mapHPx = self.mapH * self.tileH
 
-    self.spritesheet = love.graphics.newImage('graphics/environment2.png')
+    self.spritesheet = love.graphics.newImage('graphics/tsula_environment.png')
     self.sprites = generateQuads(self.spritesheet, self.tileW, self.tileH)
     self.music = love.audio.newSource('music/ambient_guitar.wav', 'static')
 
